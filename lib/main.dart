@@ -166,15 +166,15 @@ class ExampleApp extends StatelessWidget {
               DynamicTextWidget(
                 textStyle: textStyle,
                 template:
-                    "{placeholder1}hogehoge{placeholder2}hugahuga{placeholder3}ふがほげ{placeholder4}ふふふふふ",
+                    "{placeholder1}信号機{placeholder2}歩行者{placeholder3}一時停止{placeholder4}危ない",
                 replacements: {
                   "placeholder1": Icon(Icons.traffic, color: Colors.green),
                   "placeholder2": Icon(Icons.directions_walk, color: Colors.orange),
-                  "placeholder3": Icon(Icons.directions_walk, color: Colors.blue),
+                  "placeholder3": Icon(Icons.traffic, color: Colors.blue),
                   "placeholder4": Text(
-                    'ホゲホゲ',
+                    '止まれ',
                     style: TextStyle(
-                      color: Colors.blueGrey,
+                      color: Colors.red,
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
                     ),
