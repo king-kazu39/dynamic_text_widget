@@ -1,4 +1,4 @@
-# myapp
+# dynamic_text_widget
 
 A new Flutter project.
 
